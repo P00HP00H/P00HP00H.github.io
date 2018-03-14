@@ -6,7 +6,7 @@ tags: [Android]
 ---
 VMware의 Bridge, NAT, Host-Only 방식에 대해 알아보자.
 <br><br>
-###1. Bridge 방식
+- 1. Bridge 방식
 
 ![Bridge](https://github.com/P00HP00H/P00HP00H.github.io/blob/4f88b77a75c27f99b7b478f210814a31c7f77347/img/Bridge.JPG?raw=true)
 
