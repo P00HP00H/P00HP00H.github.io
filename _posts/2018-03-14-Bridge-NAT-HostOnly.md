@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "android"
-title:  "Android开发环境搭建 "
+title:  "VMware의 Bridge, NAT, Host-Only 방식"
 tags: [Android]
 ---
 VMware의 Bridge, NAT, Host-Only 방식에 대해 알아보자.
