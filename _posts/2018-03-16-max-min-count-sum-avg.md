@@ -6,7 +6,7 @@ tags: ["cocos2d"]
 ---
 
 
-- MAX로 최대값, MIN으로 최소값 구하기
+- <h3>MAX로 최대값, MIN으로 최소값 구하기</h3>
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
 
@@ -22,11 +22,7 @@ mysql> select max(member_age), min(member_age) from member where member_email is
 
 ![MAX3](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX3.JPG)
 
-
-
-
-
-
+<br><br><br>
 
 - COUNT로 행의 개수 구하기
 
@@ -57,12 +53,7 @@ mysql> select count(distinct member_phone) from member;
 ![MAX5](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX5.JPG?raw=true)
 
 member_email에 NULL값이 있어 어떻게 나오는지 궁금했는데 다른 컬럼들에는 값들이 다 존재하므로 *를 사용했을 때는 모두 카운트한 값인 5가 반환이 됨을 확인할 수 있었다.
-
-
-
-
-
-
+<br><br><br>
 
 - SUM으로 합계 구하기
 
@@ -79,13 +70,7 @@ mysql> select sum(member_age) from member;
 mysql> select sum(member_age) from member where member_email is null;
 
 ![MAX7](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX7.JPG?raw=true)
-
-
-
-
-
-
-
+<br><br><br>
 - AVG로 평균 구하기
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
@@ -94,8 +79,6 @@ mysql> select sum(member_age) from member where member_email is null;
 
 1. AVG 함수 사용
 2.  SUM함수 / COUNT함수
-
-
 
 mysql> select avg(member_age), sum(member_age)/count(member_age) from member;
 
