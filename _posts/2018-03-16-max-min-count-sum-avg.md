@@ -7,6 +7,7 @@ tags: ["cocos2d"]
 
 
 - <h3>MAX로 최대값, MIN으로 최소값 구하기</h3>
+<br>
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
 
@@ -25,6 +26,7 @@ mysql> select max(member_age), min(member_age) from member where member_email is
 <br><br><br>
 
 - <h3>COUNT로 행의 개수 구하기</h3>
+<br>
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
 
@@ -56,6 +58,7 @@ member_email에 NULL값이 있어 어떻게 나오는지 궁금했는데 다른 
 <br><br><br>
 
 - <h3>SUM으로 합계 구하기</h3>
+<br>
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
 
@@ -72,6 +75,7 @@ mysql> select sum(member_age) from member where member_email is null;
 ![MAX7](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX7.JPG?raw=true)
 <br><br><br>
 - <h3>AVG로 평균 구하기</h3>
+<br>
 
 ![MAX](https://raw.githubusercontent.com/P00HP00H/P00HP00H.github.io/e61bf18c50b7d8229f11a97372e19092dcb2e629/img/MAX.JPG)
 
