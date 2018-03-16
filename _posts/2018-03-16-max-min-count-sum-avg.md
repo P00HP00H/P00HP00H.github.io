@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "cocos2d"
+category: "database"
 title: "[Mysql] 집계함수 (MAX, MIN, COUNT, SUM, AVG)"
-tags: ["cocos2d"]
+tags: ["database"]
 ---
 
 
