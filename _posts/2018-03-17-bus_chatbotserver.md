@@ -8,10 +8,8 @@ tags: [chat-bot]
 ![chatbot-arc](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/chatbot-arc.JPG?raw=true)
 
 챗봇의 구조를 보게 되면 서버가 필요함을 알 수 있다. 필자는 따로 서버를 가지고 있지 않아서 VM을 서버로 두었다. 하지만, VM은 설정을 해줘야만 외부에서 접속이 되기 때문에 따로 설정을 해줘야 한다.  NAT방식이나 Bridge방식 둘 다 가능하지만, 필자는 Bridge 방식을 이용했다.   
-
-
-
-1. Bridge 방식 설정
+<br><br>
+<h3>1. Bridge 방식 설정</h3>
 
 bridge 방식을 이용하기 위해 VM설정을 해주자. Edit -> Virtual Network Editor로 들어가보면
 
@@ -39,9 +37,9 @@ Bridge 부분을 누르고, OK버튼을 누른다. 이번엔 VM -> Settings를 �
 
 그럼 이제 VM에도 IP가 할당되어 서버처럼 쓸 수가 있는데, 사용자가 메시지를 보냈을 때 VM한테만 가도록 하기 위하여 포트포워딩을 해줘야 한다.
 
+<br><br>
 
-
-2. 포트포워딩
+<h3>2. 포트포워딩 설정</h3>
 
 필자는 iptime 공유기를 사용하기 때문에 iptime일때를 기준으로 설명하겠다.
 
