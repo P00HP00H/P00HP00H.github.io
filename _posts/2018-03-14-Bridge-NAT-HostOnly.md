@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "android"
+category: "chat-bot"
 title:  "VMware의 Bridge, NAT, Host-Only 방식"
-tags: [Android]
+tags: [chat-bot]
 ---
 VMware의 Bridge, NAT, Host-Only 방식에 대해 알아보자.
 <br><br>
