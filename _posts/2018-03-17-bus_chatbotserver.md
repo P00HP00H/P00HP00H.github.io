@@ -55,11 +55,7 @@ URL창에 192.168.0.1을 입력하면
 
 ![iptime3](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/iptime3.jpg?raw=true)
 
-지금 이 그림은 VM을 Bridge 방식으로 설정하기 전이다.
-
-
-
-2. 포트포워딩 설정
+위 그림은 VM을 Bridge 방식으로 설정하기 전이다.
 
 이제 포트포워딩을 해주자. 왼쪽에서 고급 설정 -> NAT/라우터 관리 -> 포트포워드 설정으로 들어가보면
 
@@ -78,10 +74,3 @@ URL창에 192.168.0.1을 입력하면
 ![iptime5](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/iptime5.jpg?raw=true)
 
 이제 외부에서 필자의 공유기로 접속을 하게 되면 포트포워딩에 의해 VM으로 접속이 된다. 즉, VM 서버 셋팅이 완료된 것이다.
-
-
-
- 
-
-,
-
