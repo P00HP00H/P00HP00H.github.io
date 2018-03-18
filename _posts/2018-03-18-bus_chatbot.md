@@ -7,7 +7,7 @@ tags: [chat-bot]
 
 
 
-### 카카오톡 챗봇
+<h3>카카오톡 챗봇</h3>
 
 챗봇이란 채팅과 로봇의 합성어로 인공지능(AI)을 기반으로 사람과 대화를 나누는 프로그램으로 카카오톡 챗봇의 경우, 카카오톡 자동응답 API를 통하여 사용자가 입력한 input값에 대해 json방식으로 답변을 해준다. 
 
@@ -17,7 +17,7 @@ tags: [chat-bot]
 
 이번에 만들어 본 챗봇이고, 원하는 시간대에 버스시간을 입력하면 해당 버스시간표를 조회해준다. 
 <br><br><br><br>
-### 플러스 친구 가입하기
+<h3>플러스 친구 가입하기</h3>
 
 ![플러스친구](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC.JPG?raw=true)
 
