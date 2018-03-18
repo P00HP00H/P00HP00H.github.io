@@ -16,7 +16,7 @@ tags: [chat-bot]
 ![챗봇](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%EC%B1%97%EB%B4%87.jpg?raw=true)
 
 이번에 만들어 본 챗봇이고, 원하는 시간대에 버스시간을 입력하면 해당 버스시간표를 조회해준다. 
-<br><br><br>
+<br><br><br><br>
 ### 플러스 친구 가입하기
 
 ![플러스친구](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC.JPG?raw=true)
