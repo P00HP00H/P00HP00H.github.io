@@ -62,7 +62,7 @@ tags: [chat-bot]
 설정을 다 해줬으면 아파치를 restart한다. -> /etc/init.d/apache2 restart 
 
 - 참고 블로그 : http://kugancity.tistory.com/entry/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%B9%9C%EA%B5%AC-%EA%B0%9C%EB%B0%9C-2%ED%83%84 
-
+<br>
 
 그림대로 다 해주게 되면 이런 화면이 나온다.
 
