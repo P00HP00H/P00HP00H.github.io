@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "chat-bot"
-title:  "[PHP 챗봇] 플러스 친구 가입하기"
+title:  "[PHP 챗봇] 2. 플러스 친구 가입하기"
 tags: [chat-bot]
 ---
 
