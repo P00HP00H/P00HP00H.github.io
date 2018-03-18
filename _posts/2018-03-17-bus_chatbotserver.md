@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "chat-bot"
-title:  "[PHP 챗봇] VM서버 셋팅"
+title:  "[PHP 챗봇] 1. VM서버 셋팅"
 tags: [chat-bot]
 ---
 
