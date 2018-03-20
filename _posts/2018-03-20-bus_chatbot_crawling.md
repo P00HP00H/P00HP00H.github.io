@@ -37,7 +37,7 @@ https://sourceforge.net/projects/snoopy/files/latest/download 이 링크를 따�
 
 ![message](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/crawling/message.JPG?raw=true)
 
-이게 맨 처음 만든 message.php이다. 밑에 부분은 각 명령어에 대한 응답처리이고, 3번째 줄을 보게 되면  json방식으로 들어온 요청값이 json_decode 함수에 의해 배열 또는 객체로 변환된 후 \$data 변수에 저장된다. 4번째 줄을 보면,  \$data변수에 저장된 배열 또는 객체에서 content 항목인 부분만 다시 \$content 변수에 저장한다. 쉽게 말해, \$content 변수에는 사용자가 입력한 명령어가 들어가게 된다고 생각하면 된다. 여기에 크롤링 기능이랑 각 명령어 응답처리들을 추가해줄 것이다.
+이게 맨 처음 만든 message.php이다. 밑에 부분은 각 명령어에 대한 응답처리이고, 3번째 줄을 보게 되면  json방식으로 들어온 요청값이 json_decode 함수에 의해 배열 또는 객체로 변환된 후 \$data 변수에 저장된다. 4번째 줄을 보면,  \$data변수에 저장된 배열 또는 객체에서 content 항목인 부분만 다시 \$content 변수에 저장한다. 쉽게 말해, \$content 변수에는 사용자가 입력한 명령어가 들어가게 된다고 생각하면 된다. 이 message.php에 크롤링 기능이랑 각 명령어 응답처리들을 추가해줄 것이다.
 
 먼저 크롤링 기능을 추가해주기 위해 message.php에서 스누피 클래스를 이용해보자. 2,5,6번째 줄만 추가해주고 나머지는 그대로 두면 된다.
 
