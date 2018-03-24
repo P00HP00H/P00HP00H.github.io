@@ -19,28 +19,26 @@ tags: [chat-bot]
 <br><br><br><br>
 <h3>플러스 친구 가입하기</h3>
 
-![플러스친구](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC.JPG?raw=true" width="750px"><br>
 
 먼저 앱을 등록해야 하는데, 그러기 위해선 플러스 친구에 가입을 해야 한다. https://center-pf.kakao.com 여기로 들어가서 '플러스친구 만들기'를 눌러 카카오톡 아이디로 로그인을 하면 이런 화면이 나온다.
-
-![플러스친구2](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC2.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC2.JPG?raw=true" width="750px"><br>
 
 여기서 '새 플러스친구 만들기'를 클릭한다.
 
-![플러스친구3](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC3.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC3.JPG?raw=true" width="750px"><br>
 
 필요한 부분들을 채워넣고 확인을 누르면
 
-![플러스친구4](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC4.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC4.JPG?raw=true" width="750px"><br>
 
 왼쪽을 보면 '스마트채팅' 버튼이 있다. 이를 클릭해보면
 
-![플러스친구5](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC5.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC5.JPG?raw=true" width="750px"><br>
 
 연필 아이콘 모양이 있는데, 이를 클릭하면
 
-![플러스친구6](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC6.JPG?raw=true)
-
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC6.JPG?raw=true" width="750px"><br>
 여기를 보면, 다른 거는 그냥 입력해주면 되는데 앱URL 부분이 문제이다. 오른쪽을 보게 되면 'API테스트'가 있는데 이를 통과해야만 한다. 앱 URL주소는 해당서버에 keyboard.php가 존재하는 경로이면 된다. 필자의 경우, /var/www/html/busbot/keyboard.php였기에 앱 URL에 'http://서버주소/busbot'를 입력해줬다.
 
 다음은 keyboard.php의 소스이다.
@@ -49,8 +47,7 @@ tags: [chat-bot]
 
 하지만 해보면, 이런 오류가 발생한다.
 
-![플러스친구7](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC7.JPG?raw=true)
-
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC7.JPG?raw=true" width="750px"><br>
 이 오류는 서버에 설정을 해주지 않아서이다. 먼저 아파치 기본설정 파일(/etc/apache2/apache2.conf)에 들어가서 화면처럼 설정을 해준다. 
 
 ![apache2](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/apache2.JPG?raw=true)
@@ -66,16 +63,15 @@ tags: [chat-bot]
 
 그림대로 다 해주게 되면 이런 화면이 나온다.
 
-![플러스친구성공](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC%EC%84%B1%EA%B3%B5.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC%EC%84%B1%EA%B3%B5.JPG?raw=true" width="750px"><br>
 
 맨 밑으로 가면 'API 저장하기'가 있는데 이를 클릭한다. 이러면 API설정은 끝났다.
 
-![플러스친구8](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC8.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC8.JPG?raw=true" width="750px"><br>
 
 '시작하기' 버튼을 눌러주면 API가 실행된다.
 
-![플러스친구9](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC9.JPG?raw=true)
-
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kakao/%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%B9%9C%EA%B5%AC9.JPG?raw=true" width="750px"><br>
 이러면 잘 실행이 되는 것이다.
 
  
