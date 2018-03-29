@@ -52,7 +52,7 @@ mysql> select count(distinct member_phone) from member;
 
  mysql> select count(*) from member;
 
-![MAX5](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX5.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX5.JPG?raw=true" width="px">
 
 member_email에 NULL값이 있어 어떻게 나오는지 궁금했는데 다른 컬럼들에는 값들이 다 존재하므로 *를 사용했을 때는 모두 카운트한 값인 5가 반환이 됨을 확인할 수 있었다.
 <br><br><br>
@@ -66,7 +66,7 @@ member_email에 NULL값이 있어 어떻게 나오는지 궁금했는데 다른 
 
 mysql> select sum(member_age) from member;
 
-![MAX6](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX6.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX6.JPG?raw=true" width="px">
 
 이거 역시 조건을 붙여서 사용할 수도 있다. 이번엔 이메일이 없는 사람들의 나이 합을 구해보자
 
