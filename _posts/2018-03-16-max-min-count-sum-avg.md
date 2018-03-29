@@ -72,7 +72,7 @@ mysql> select sum(member_age) from member;
 
 mysql> select sum(member_age) from member where member_email is null;
 
-![MAX7](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX7.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX7.JPG?raw=true" width="750px">
 <br><br><br>
 - <h3>AVG로 평균 구하기</h3>
 <br>
@@ -86,7 +86,7 @@ mysql> select sum(member_age) from member where member_email is null;
 
 mysql> select avg(member_age), sum(member_age)/count(member_age) from member;
 
-![MAX8](https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX8.JPG?raw=true)
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/MAX8.JPG?raw=true" width="750px"><br>
 
 똑같은 값이 나옴을 확인할 수 있다. AVG함수 역시 뒤에 조건을 붙여서 사용이 가능하다.
 
