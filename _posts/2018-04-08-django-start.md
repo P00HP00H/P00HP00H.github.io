@@ -10,22 +10,16 @@ tags: ["django"]
 
 Django는 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이션 프레임워크(web application framework)이며, 쉽고 빠르게 웹사이트를 개발할 수 있도록 돕는 구성요소로 이루어져 있다.
 
-Django를 사용하기 위해서는 먼저 Django를 설치해줘야 한다. 필자눈 Ubuntu 16.04 LTS에서 진행하였다. 설치하기 전에 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
+Django를 사용하기 위해서는 먼저 Django를 설치해줘야 한다. 필자는 Ubuntu 16.04 LTS에서 진행하였다. 설치하기 전에 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
 
 $ sudo pip install --upgrade pip
 
-
-
 pip를 최신 버전으로 해줬으면 이젠 Django를 설치해보자
-
+<br>
 $ sudo pip install Django 
-
-
-
 설치가 끝났으면 먼저 프로젝트를 생성해줘야 한다.
-
+<br>
 $ django-admin startproject hello
-
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/1.JPG?raw=true" width="px">
 
 ls를 통해 보면 hello라는 이름의 프로젝트가 생성되었음을 확인할 수 있다. 필자는 ~경로에 했기 때문에 저런 것이지만, 따로 새 디렉토리를 만든 후 해당 디렉토리에서 프로젝트를 생성해줄 수도 있다. 어떤 것들이 만들어졌는지 확인해보자.
