@@ -1,10 +1,9 @@
 ---
 layout: post
 category: "django"
-title: "Django로 hello world 띄우기[1]"
+title: "Django로 hello world 띄우기 [1]"
 tags: ["django"]
 ---
-<br>
 
 - <h3>Django란?</h3>
 
