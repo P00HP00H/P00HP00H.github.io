@@ -32,17 +32,17 @@ ls를 통해 보면 hello라는 이름의 프로젝트가 생성되었음을 확
 
 - `hello/` 디렉토리 바깥의 디렉토리는 단순히 프로젝트를 담는 공간입니다. 이 이름은 원하는대로 지정해줄 수 있다.
 
-- `manage.py`: Django 프로젝트와 다양한 방법으로 상호작용 하는 커맨드라인의 유틸리티로 이에 대한 자세한 정보는 https://docs.djangoproject.com/ko/2.0/ref/django-admin/에서 확인할 수 있다.
+- `manage.py`: Django 프로젝트와 다양한 방법으로 상호작용 하는 커맨드라인의 유틸리티로 이에 대한 자세한 정보는 https://docs.djangoproject.com/ko/2.0/ref/django-admin/ 에서 확인할 수 있다.
 
 - `hello/` 디렉토리 내부에는 프로젝트를 위한 실제 Python 패키지들이 저장되고, 이 디렉토리 내의 이름을 이용하여, (`mysite.urls` 와 같은 식으로) 프로젝트 어디서나 Python 패키지들을 import 할 수 있다.
 
-- `hello/__init__.py`: Python 으로 하여금 이 디렉토리를 패키지처럼 다루라고 알려주는 용도의 단순한 빈 파일이다. 자세한 내용은 https://docs.python.org/3/tutorial/modules.html#tut-packages를 참고하기 바란다.
+- `hello/__init__.py`: Python 으로 하여금 이 디렉토리를 패키지처럼 다루라고 알려주는 용도의 단순한 빈 파일이다. 자세한 내용은 https://docs.python.org/3/tutorial/modules.html#tut-packages 를 참고하기 바란다.
 
-- `hello/settings.py`:  Django project의 환경/구성을 저장하는 곳으로 https://docs.djangoproject.com/ko/2.0/topics/settings/에서 환경 설정이 어떻게 동작하는지 확인할 수 있다.
+- `hello/settings.py`:  Django project의 환경/구성을 저장하는 곳으로 https://docs.djangoproject.com/ko/2.0/topics/settings/ 에서 환경 설정이 어떻게 동작하는지 확인할 수 있다.
 
 - `hello/urls.py`: Django project 의 URL 선언을 저장한다. https://docs.djangoproject.com/ko/2.0/topics/http/urls/ 에 URL에 대한 자세한 내용들이 나와있다.
 
-- `hello/wsgi.py`: 현재 프로젝트를 서비스 하기 위한 WSGI 호환 웹 서버의 진입점이라고 생각하면 된다. https://docs.djangoproject.com/ko/2.0/howto/deployment/wsgi/에 자세하게 나와있다.
+- `hello/wsgi.py`: 현재 프로젝트를 서비스 하기 위한 WSGI 호환 웹 서버의 진입점이라고 생각하면 된다. https://docs.djangoproject.com/ko/2.0/howto/deployment/wsgi/ 에 자세하게 나와있다.
 
   ​
 
