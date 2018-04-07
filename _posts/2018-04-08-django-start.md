@@ -8,7 +8,7 @@ tags: ["django"]
 
 - <h3>Django란?</h3>
 
-Django는 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이션 프레임워크(web application framework)이며, 쉽고 빠르게 웹사이트를 개발할 수 있도록 해준다.<br><br><br>
+Django는 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이션 프레임워크(web application framework)로, 쉽고 빠르게 웹사이트를 개발할 수 있도록 해준다.<br><br><br>
 Django를 사용하기 위해서는 먼저 Django를 설치해줘야 하는데 필자는 Ubuntu 16.04 LTS에서 진행하였다. 설치하기 전에 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
 
 $ sudo pip install --upgrade pip
