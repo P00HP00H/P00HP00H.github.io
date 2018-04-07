@@ -55,11 +55,11 @@ manage.py가 있는 경로로 가서
 
 $ python manage.py runserver
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/4.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/4.JPG?raw=true" width="750px">
 
 보면 http://127.0.0.1:8000/ 에서 실행이 됨을 확인할 수 있다. 실제로 들어가보면
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/5.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/5.JPG?raw=true" width="750px">
 
 잘 실행되고 있음을 확인할 수 있다.
 
