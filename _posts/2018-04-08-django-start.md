@@ -46,7 +46,7 @@ ls를 통해 보면 hello라는 이름의 프로젝트가 생성되었음을 확
 
   ​
 
-  이에 대한 내용은 django사이트(https://docs.djangoproject.com/ko/2.0/intro/tutorial01/)에서 퍼왔습니다.
+  이에 대한 내용은 django사이트( https://docs.djangoproject.com/ko/2.0/intro/tutorial01/ )에서 퍼왔습니다.
 
   ​
 
