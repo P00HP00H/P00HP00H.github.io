@@ -13,12 +13,13 @@ Django는 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이�
 Django를 사용하기 위해서는 먼저 Django를 설치해줘야 한다. 필자는 Ubuntu 16.04 LTS에서 진행하였다. 설치하기 전에 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
 
 $ sudo pip install --upgrade pip
-
+<br>
 pip를 최신 버전으로 해줬으면 이젠 Django를 설치해보자
+<br><br>
+$ sudo pip install Django
 <br>
-$ sudo pip install Django 
 설치가 끝났으면 먼저 프로젝트를 생성해줘야 한다.
-<br>
+<br><br>
 $ django-admin startproject hello
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/1.JPG?raw=true" width="px">
 
@@ -58,7 +59,7 @@ $ python manage.py runserver
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/4.JPG?raw=true" width="px">
 
-보면 http://127.0.0.1:8000/에서 실행이 됨을 확인할 수 있다. 실제로 들어가보면
+보면 http://127.0.0.1:8000/ 에서 실행이 됨을 확인할 수 있다. 실제로 들어가보면
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/hello1/5.JPG?raw=true" width="px">
 
