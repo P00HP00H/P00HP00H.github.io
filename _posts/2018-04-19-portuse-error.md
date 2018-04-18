@@ -10,7 +10,8 @@ tags: ["django"]
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/17.JPG?raw=true" width="750px">
 
-아마 hello 프로젝트에서 이미 해당 포트를 사용하고 있어서 그런 것 같다. 이럴 때마다 포트를 바꿔서 서버를 실행해줄 수도 있지만 더 간단하게 기존 서버를 죽이는 방법을 알아보자. 정말 간단하다. <br> 터미널 창에 ps aux | grep -i manage 라고 입력하면
+아마 hello 프로젝트에서 이미 해당 포트를 사용하고 있어서 그런 것 같다. 이럴 때마다 포트를 바꿔서 서버를 실행해줄 수도 있지만 더 간단하게 기존 서버를 죽이는 방법을 알아보자. 정말 간단하다. <br> 
+터미널 창에 ps aux | grep -i manage 라고 입력하면
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/18.JPG?raw=true" width="750px">
 
