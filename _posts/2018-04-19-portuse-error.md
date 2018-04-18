@@ -21,7 +21,8 @@ kill -9 62942
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/19.JPG?raw=true" width="750px">
 
--9 옵션은 강제 종료를 뜻한다. 그러고 나서 다시 python manage.py runserver를 입력했는데 또  'port already in use' 에러가 떴다. pid = 62942인 프로세스가 안 죽었나 ps aux \| grep -i manage 로 다시 확인해봤는데
+-9 옵션은 강제 종료를 뜻한다. 그러고 나서 다시 python manage.py runserver를 입력했는데 또  'port already in use' 에러가 떴다. 
+pid = 62942인 프로세스가 안 죽었나 ps aux \| grep -i manage 로 다시 확인해봤는데
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/20.JPG?raw=true" width="750px">
 
