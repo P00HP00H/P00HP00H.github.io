@@ -15,7 +15,7 @@ VM에서 인터넷 브라우저를 켜야 할 상황이 생겼다. Ubuntu에 Moz
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/firefoxerror/2.JPG?raw=true" width="px">
 
-그래서 실제로 확인해봤더니 정말 현재 시간과 달랐다. 밑에 부분이 VM밖의 컴퓨터 시간(현재 시간)이고 위의 부분은 VM안의 컴퓨터 시간이다. 그럼 VM안의 컴퓨터 시간을 현재 시간을 맞춰주자.
+그래서 실제로 확인해봤더니 정말 현재 시간과 달랐다. 밑의 부분이 VM밖의 컴퓨터 시간(현재 시간)이고 위의 부분은 VM안의 컴퓨터 시간이다. 그럼 VM안의 컴퓨터 시간을 현재 시간을 맞춰주자.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/firefoxerror/4.JPG?raw=true" width="750px">
 
