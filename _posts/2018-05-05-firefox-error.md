@@ -4,7 +4,6 @@ category: "others"
 title: "Mozilla Firefox Error : SEC_ERROR_OCSP_FUTURE_RESPONSE"
 tags: ["others"]
 ---
-<br>
 
 VM에서 인터넷 브라우저를 켜야 할 상황이 생겼다. Ubuntu에 Mozilla Firefox가 있어 이거로 접속을 해봤는데, 되지 않았다. 그래서 특정 환경만 안 되는 건가 해서 네이버 사이트를 들어가 봤는데 역시 안 됐다. 그래서, 브라우저에 문제가 있다고 판단을 했고 에러를 잡아보기로 했다.
 
