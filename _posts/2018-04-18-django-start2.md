@@ -4,7 +4,6 @@ category: "django"
 title: "Django로 hello world 띄우기[2]"
 tags: ["django"]
 ---
-<br>
 
 이번 포스팅에서는 hello world를 직접 띄워볼 것이다. 장고 프로젝트는 여러 앱들로 구성이 되고(물론 1개의 앱으로도 구성 가능) 여기서 앱은 웹사이트를 기능별로 분리해놓은 단위라고 생각하면 된다.
 
