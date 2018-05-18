@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "database"
-title: "[Mysql] 집계함수 (MAX, MIN, COUNT, SUM, AVG)"
+title: "[MySQL] 집계함수 (MAX, MIN, COUNT, SUM, AVG)"
 tags: ["database"]
 ---
 
