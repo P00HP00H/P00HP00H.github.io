@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "database"
-title: "MySQL - ERROR 2002 (HY000) : Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) "
+title: "[MySQL] ERROR 2002 (HY000) : Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) "
 tags: ["database"]
 ---
 환경 : VMware에서의 Ubuntu 16.04이다.
