@@ -101,7 +101,7 @@ root@0328a08bbd7c에서 다시 pooh@pooh-virtual-machine로 바뀌었다. 이번
 
 docker attach [컨테이너 이름 or CONTAINER ID]
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/15.JPG?raw=true" width="750px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/15.JPG?raw=true" width="px">
 
 아까처럼 root@0328a08bbd7c로 되었고 버전도 CentOS임을 확인할 수 있다.
 
@@ -115,6 +115,5 @@ docker ps -a로 입력해봐도 존재하는 컨테이너가 없다.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/17.JPG?raw=true" width="750px">
 
-해당 컨테이너에서 exit로 중지하고 나서 docker ps -a로 확인해보면 따로 docker rm [컨테이너 이름 or CONTAINER ID]을 해주지 않아도 삭제가 되었음을 확인할 수 있다.
-
+해당 컨테이너에서 exit로 중지하고 나서 docker ps -a로 확인해보면 따로 docker rm [컨테이너 이름 or CONTAINER ID]을 해주지 않아도 삭제가 되었음을 확인할 수 있다.<br><br><br>
 참고 블로그 : http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/
