@@ -101,18 +101,20 @@ root@0328a08bbd7c에서 다시 pooh@pooh-virtual-machine로 바뀌었다. 이번
 
 docker attach [컨테이너 이름 or CONTAINER ID]
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/15.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/15.JPG?raw=true" width="750px">
 
 아까처럼 root@0328a08bbd7c로 되었고 버전도 CentOS임을 확인할 수 있다.
 
 그럼 이제는 컨테이너가 필요 없어졌을 때 컨테이너를 삭제하는 방법에 대해 알아보자. 컨테이너가 실행중일 때는 먼저 컨테이너를 중지하고 삭제를 시켜야 한다. 아까처럼 해당 컨테이너에서 exit로 컨테이너를 중지할 수도 있고 컨테이너에 직접 접속하지 않고 docker stop [컨테이너 이름 or CONTAINER ID]로 중지할 수도 있다.  중지를 시켰으면 이제 docker rm [컨테이너 이름 or CONTAINER ID]로 해당 컨테이너를 삭제해주면 된다. 
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/16.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/16.JPG?raw=true" width="750px">
 
 docker ps -a로 입력해봐도 존재하는 컨테이너가 없다.
 
 하지만 컨테이너를 실행시킬 때마다 이렇게 매번 중지하고 삭제를 해주자니 너무 번거롭다. 그래서 컨테이너를 실행할 때 --rm 옵션을 줄 수가 있다. --rm 옵션은 컨테이너를 중지하면 동시에 바로 삭제가 되는 옵션이다.
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/17.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/17.JPG?raw=true" width="750px">
 
 해당 컨테이너에서 exit로 중지하고 나서 docker ps -a로 확인해보면 따로 docker rm [컨테이너 이름 or CONTAINER ID]을 해주지 않아도 삭제가 되었음을 확인할 수 있다.
+
+참고 블로그 : http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/
