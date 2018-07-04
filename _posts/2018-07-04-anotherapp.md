@@ -25,7 +25,7 @@ rm /var/run/yum.pid
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/73.JPG?raw=true" width="px">
 
 명령어가 잘 수행된다.
-<br><br><br>
+<br><br><br><br>
 - 해당 yum 프로세스 죽이기
 
 먼저 root로 로그인을 한 후에
@@ -39,5 +39,5 @@ kill -9 [pid]로 yum이 사용하고 있는 프로세스 번호를 죽인다.
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/79.JPG?raw=true" width="px">
 
 그러고 나서 다시 yum을 사용하면 명령어가 잘 수행된다.
-<br><br><br>
+<br><br><br><br>
 참고 블로그 : http://blog.net2free.net/43
