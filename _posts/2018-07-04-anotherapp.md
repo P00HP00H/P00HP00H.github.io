@@ -32,7 +32,7 @@ rm /var/run/yum.pid
 
 ps -aef | grep yum	--> yum 프로세스들 중에 yum이 진행되는 것을 확인
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/78.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/78.JPG?raw=true" width="750px">
 
 kill -9 [pid]로 yum이 사용하고 있는 프로세스 번호를 죽인다.
 
