@@ -87,7 +87,7 @@ tags: ["docker"]
 
 맨 위 dockerfile에는 없지만 3개 명령어를 추가로 더 보면
 
-- .dockerignore : Dockerfile과 같은 디렉터리에 있는 모든 파일을 Context라고 하는데 그 중 이미지를 생성할때 필요없는 파일들은 .dockerignore 파일에 작성하면 된다. Docker는 Go언어로 작성되어있기때문에 Go문법에 따라 작성해주면 된다.
+- .dockerignore : 이 녀석은 명령어라기 보다는 Dockerfile같은 파일이다. Dockerfile과 같은 디렉터리에 있는 모든 파일을 Context라고 하는데 그 중 이미지를 생성할때 필요없는 파일들은 .dockerignore 파일에 작성하면 된다. Docker는 Go언어로 작성되어있기때문에 Go문법에 따라 작성해주면 되고, 자세한 건 검색을 해보길 바란다.
 
 - CMD: 컨테이너가 시작되었을 때(docker run이나 docker start 실행 시) 스크립트 혹은 명령이 실행된다.<br>CMD는 dockerfile에서 한번만 사용가능하다. 사용법은
 
