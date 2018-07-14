@@ -30,7 +30,7 @@ rm /var/run/yum.pid
 
 먼저 root로 로그인을 한 후에
 
-ps -aef | grep yum	--> yum 프로세스들 중에 yum이 진행되는 것을 확인
+ps -aef \| grep yum	--> yum 프로세스들 중에 yum이 진행되는 것을 확인
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/78.JPG?raw=true" width="750px">
 
