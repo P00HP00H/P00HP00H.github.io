@@ -63,7 +63,7 @@ docker run -it poohpooh:test /bin/bash
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/52.JPG?raw=true" width="750px">
 
-  mysql에 root 계정으로 들어가는 것은 실패했다. 지금 난 에러는 mysql 서버가 실행되지 않아서 나는 에러인데 지금은 mysql 에러를 잡으려고 하는 것이 아니기 때문에 이 부분은 다루지 않겠다. 여기서는 mysql 명령어가 실행됐다는 것에 초점을 맞추자. 만약 mysql-client가 깔리지 않았다면 mysql : command not found가 떠야 한다. 하지만 mysql -uroot -p 명령어가 실행은 됐기 때문에 RUN 명령어들도 잘 수행됐음을 알 수 있다.
+  mysql에 root 계정으로 들어가는 것은 실패했다. 지금 난 에러는 mysql 서버가 실행되지 않아서 나는 에러인데 지금은 mysql 에러를 잡으려고 하는 것이 아니기 때문에 이 부분은 다루지 않겠다. 여기서는 mysql 명령어가 실행됐다는 것에 초점을 맞추자. 만약 mysql-client가 지 않았다면 mysql : command not found가 떠야 한다. 하지만 mysql -uroot -p 명령어가 실행은 됐기 때문에 RUN 명령어들도 잘 수행됐음을 알 수 있다.
 
 - VOLUME ["/pooh"]
 
