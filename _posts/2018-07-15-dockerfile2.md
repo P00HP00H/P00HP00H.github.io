@@ -25,7 +25,7 @@ docker run -it poohpooh:test /bin/bash
 
   ubuntu:16.04가 잘 설치되었다.
 
-- MAINTINAER pooh
+- MAINTAINER pooh
 
   dockerfile 만든 사람의 정보가 쓰여 있는 것으로 build 할 때 아무런 영향이 없으므로 넘어가자.
 
