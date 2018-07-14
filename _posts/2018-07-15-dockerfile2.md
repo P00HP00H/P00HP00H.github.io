@@ -53,7 +53,7 @@ docker run -it poohpooh:test /bin/bash
 
   ADD와 똑같이 호스트에 있는 linux-copy.tar.bz2 파일을 컨테이너의 /pooh라는 곳에 추가하겠다는 의미이다. 하지만 저번 포스팅에서 COPY는 호스트에 있는 압축파일을 추가할 때 압축을 해제하지 않는다고 했다. 실제로 확인을 해보면
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/49.JPG?raw=true" width="px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/53.JPG?raw=true" width="px">
 
   아까 ADD로 인해 추가된 linux-2.4.32.tar.bz2는 압축이 풀어지고 tar까지 풀어져서 linux-2.4.32라는 디렉토리로 되어있는 반면 linux-copy.tar.bz2는 압축이 풀어지지 않아 파일 형태 그대로 컨테이너에 있다.
 
