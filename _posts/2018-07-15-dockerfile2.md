@@ -31,7 +31,7 @@ docker run -it poohpooh:test /bin/bash
 
 - ADD linux-2.4.32.tar.bz2 /pooh
 
-  호스트에 있는 linux-2.4.32.tar.bz2 파일을 컨테이너의 /pooh라는 곳에 추가하겠다는 의미이다. 저번 포스팅에도 얘기했지만 경로가 따로 없고 파일명만 있는 것은 dockerfile과 같은 경로이기 때문이다. 그리고 ADD는 호스트 안에 압축 파일(tar.gz, tar.bz2, tar.xz)인 경우 압축을 해제하고 tar을 풀어서 추가된다고 했다. 실제로 그렇게 돼있는지 /pooh로 가서 확인해보자.
+  호스트에 있는 linux-2.4.32.tar.bz2 파일을 컨테이너의 /pooh라는 곳에 추가하겠다는 의미이다. 저번 포스팅에도 언급했지만 경로가 따로 없고 파일명만 있는 것은 dockerfile과 같은 경로에 있기 때문이다. 그리고 ADD는 호스트의 압축 파일(tar.gz, tar.bz2, tar.xz)인 경우 압축을 해제하고 tar을 풀어서 컨테이너에 추가된다고 했다. 실제로 그렇게 되어있는지 /pooh로 가서 확인해보자.
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/49.JPG?raw=true" width="px">
 
