@@ -13,7 +13,7 @@ Docker Image를 지우는 명령어는 docker rmi \<IMAGE ID\>이다.
 
 docker rmi dc69bffc5350
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/31.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/31.JPG?raw=true" width="750px">
 
 unable to delete 즉, 지울 수 없다는 메시지가 떴고 여러 저장소에서 이미지가 참조되고 있다고 나온다. 그래서 must be forced 반드시 강제되어야 한다고 나와있다. 따라서, -f 옵션을 줘서 강제로 삭제해주면 된다.
 
