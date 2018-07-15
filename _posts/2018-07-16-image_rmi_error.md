@@ -13,7 +13,7 @@ tags: ["docker"]
 
 docker rmi dc69bffc5350
 
-Docker Image를 지우는 명령어는 docker rmi <IMAGE ID>이다.
+Docker Image를 지우는 명령어는 docker rmi \<IMAGE ID\>이다.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/31.JPG?raw=true" width="px">
 
