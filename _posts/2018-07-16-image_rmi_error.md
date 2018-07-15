@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "docker"
-title: "unable to delete IMAGE ID (must be forced) - image is referenced in multiple repositories"
+title: "unable to delete {IMAGE ID} (must be forced) - image is referenced in multiple repositories"
 tags: ["docker"]
 ---
 
