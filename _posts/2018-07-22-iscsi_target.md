@@ -43,7 +43,7 @@ sudo tgtadm --lld iscsi --op new --mode target --tid 1 -T iqn-2018-07.pooh:stora
 
 iqn.yyyy-mm.~[:identifier]
 
-형식은 이러하며 iqn 뒤에 ~부분이 도메인, 뒤의 identifier는 디스크(볼륨) 이름이다. 하지만 이는 알아보기 위해서 이렇게 형식을 지정해준 것일 뿐 사실 iqn~ 이럴 필요 없이 aaa 이렇게 이름을 지어도 전혀 상관은 없다. 필자의 경우 2018년 7월에 만들었고 도메인 이름을 그냥 pooh라고 했으며 identifier부분은 저장소 lun(logical unit number)1이라는 뜻에서 저렇게 storage.lun1이라고 붙여준 것이다. 
+형식은 이러하며 iqn 뒤에 \~부분이 도메인, 뒤의 identifier는 디스크(볼륨) 이름이다. 하지만 이는 알아보기 위해서 이렇게 형식을 지정해준 것일 뿐 사실 iqn~ 이럴 필요 없이 aaa 이렇게 이름을 지어도 전혀 상관은 없다. 필자의 경우 2018년 7월에 만들었고 도메인 이름을 그냥 pooh라고 했으며 identifier부분은 저장소 lun(logical unit number)1이라는 뜻에서 저렇게 storage.lun1이라고 붙여준 것이다. 
 
 그 밑을 보게되면 sudo tgtadm --lld iscsi --op show --mode target (또는 sudo tgt-admin -s) 명령어를 통해 iSCSI 서버의 데이터들을 확인할 수 있는데
 
@@ -118,10 +118,7 @@ tgt-admin --dump > /etc/tgt/targets.conf
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/72.JPG?raw=true" width="px">
 
 이제 iSCSI target 설정이 끝났다. 다음 포스팅에서는 iSCSI initiator 설정을 해보자.
-
-
-
-
+<br><br><br>
 
 참고 블로그 : https://m.blog.naver.com/PostView.nhn?blogId=jesstter&logNo=220767176214&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
 
