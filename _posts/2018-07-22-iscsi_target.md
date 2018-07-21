@@ -120,13 +120,10 @@ tgt-admin --dump > /etc/tgt/targets.conf
 이제 iSCSI target 설정이 끝났다. 다음 포스팅에서는 iSCSI initiator 설정을 해보자.
 <br><br><br>
 
-참고 블로그 : https://m.blog.naver.com/PostView.nhn?blogId=jesstter&logNo=220767176214&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
-
-​			https://www.joinc.co.kr/w/Site/System_management/iSCSI
-
-​			http://kindno.tistory.com/entry/%EB%94%94%EC%8A%A4%ED%81%AC-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%9A%A9%EC%96%B4%EC%9D%B8-LUN%EC%9D%B4%EB%9E%80
-
-​			http://thinkfarm.tistory.com/entry/ISCSI-%EC%84%A4%EC%A0%95
-
-​			
+참고 블로그 : 
+- https://m.blog.naver.com/PostView.nhn?blogId=jesstter&logNo=220767176214&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+- https://www.joinc.co.kr/w/Site/System_management/iSCSI
+- http://kindno.tistory.com/entry/%EB%94%94%EC%8A%A4%ED%81%AC-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EC%97%90%EC%84%9C-%EC%93%B0%EC%9D%B4%EB%8A%94-%EC%9A%A9%EC%96%B4%EC%9D%B8-LUN%EC%9D%B4%EB%9E%80
+- http://thinkfarm.tistory.com/entry/ISCSI-%EC%84%A4%EC%A0%95
+		
 
