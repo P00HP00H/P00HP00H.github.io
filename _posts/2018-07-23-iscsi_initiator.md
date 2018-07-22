@@ -90,7 +90,8 @@ cat /proc/scsi/scsi
 빨간 부분을 보게되면 Lun 1번의 VIRTUAL-DISK 즉, iSCSI로 연결된 디스크를 의미한다. 
 
 이제 이 iSCSI로 연결된 디스크를 사용하려면 똑같이 fdisk로 파티션 지정해주고 mkfs로 파일시스템을 생성한 다음 마운트 시켜주고 fstab으로 컴퓨터가 부팅될 때마다 마운트 된 파일시스템이 적용될 수 있도록 설정을 해주면 된다. 하지만 최종 목표는 이를 initiator의 디스크들과 함께 LVM으로 묶어서 사용하는 것이기 때문에 지금 이 과정들을 하지는 않겠다. 다음 포스팅에서는 initiator의 디스크들과 iSCSI로 연결된 디스크를 LVM으로 묶어서 파일시스템으로 만들어 마운트까지 시켜볼 것이다. 
-<br><br> 
+<br><br><br>
+
 참고 블로그 : 
 
 - https://m.blog.naver.com/PostView.nhn?blogId=jesstter&logNo=220767176214&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
