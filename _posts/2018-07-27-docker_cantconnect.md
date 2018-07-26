@@ -5,7 +5,7 @@ title: "Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is t
 tags: ["docker"]
 ---
 
-CentOS 7에서 docker로 작업을 해야해서 docker ps 명령어를 입력했는데,  \"Cannot connect to the Docker daemon at unix\:\/\/\/var\/run\/docker.sock. Is the docker daemon running?\" 오류가 뜨면서 아무것도 나오지 않았다. 혹시 docker ps만 이런가 해서 다른 docker 명령어(docker images)를 입력해봤는데 역시나 똑같은 오류가 떴다.
+CentOS 7에서 docker로 작업을 해야해서 docker ps 명령어를 입력했는데,  \"Cannot connect to the Docker daemon at unix\:///var/run/docker.sock. Is the docker daemon running?\" 오류가 뜨면서 아무것도 나오지 않았다. 혹시 docker ps만 이런가 해서 다른 docker 명령어(docker images)를 입력해봤는데 역시나 똑같은 오류가 떴다.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/55.JPG?raw=true" width="750px">
 
