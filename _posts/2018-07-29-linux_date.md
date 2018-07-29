@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "others"
-title: "리눅스 시간 설정하기"
+title: "Linux 시간 설정하기"
 tags: ["others"]
 ---
 
@@ -9,7 +9,7 @@ tags: ["others"]
 
 
 
-- <h2>Ubuntu 16.04</h2>
+- <h3>Ubuntu 16.04</h3>
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/11.JPG?raw=true" width="730px">
 
@@ -55,7 +55,7 @@ tags: ["others"]
 
   ​
 
-- <h2>CentOS 7</h2>
+- <h3>CentOS 7</h3>
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/18.JPG?raw=true" width="730px">
 
