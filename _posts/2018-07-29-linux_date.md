@@ -104,7 +104,7 @@ tags: ["others"]
 
 
 
-- dpkg-reconfigure 툴을 이용한 설치
+- <h3>dpkg-reconfigure 툴을 이용한 설치</h3>
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/81.JPG?raw=true" width="px">
 
