@@ -9,7 +9,7 @@ tags: ["others"]
 
 
 
-- Ubuntu 16.04
+- <h3>Ubuntu 16.04</h3>
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/11.JPG?raw=true" width="730px">
 
@@ -55,7 +55,7 @@ tags: ["others"]
 
   ​
 
-- CentOS 7
+- <h3>CentOS 7</h3>
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/18.JPG?raw=true" width="730px">
 
@@ -97,11 +97,7 @@ tags: ["others"]
 
 
 **결론은 Ubuntu와 CentOS의 시간 설정해주는 방법은 아예 똑같다고 보면 된다.**
-
-
-
-
-
+<br><br><br>
 검색해보다가 dpkg-reconfigure라는 툴을 이용해서 시간을 설정하는 방법이 있었다. 이는 약간 번외느낌이므로 귀찮으신 분들은 스킵하면 될 것 같다. 이 방법은 Debian/Ubuntu 계열에만 해당되며 도커 컨테이너 이미지들이 대부분 기본으로 Debian이 깔려있기 때문에 도커 컨테이너에다가 직접 설정을 해볼 예정이다. 도커를 잘 모르시는 분들은 그냥 Ubuntu나 Debian에 설치한다고 생각하면 될 것 같다. 
 
 환경은 VM의 CentOS 7이고 여기에 mysql 컨테이너가 있다. mysql 컨테이너의 경우는 Debian으로 되어 있기 때문에 위 내용들을 실행할 수 있다. 
