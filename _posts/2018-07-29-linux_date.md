@@ -17,7 +17,7 @@ tags: ["others"]
 
   ls -al /etc/localtime
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/12.JPG?raw=true" width="750px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/12.JPG?raw=true" width="730px">
 
   심볼릭 링크로 UTC파일 즉, /usr/share/zoneinfo/UTC에 연결되어 있다. /usr/share/zoneinfo/로 가면 해당 지역들이 나온다. 거기서 지정하고 싶은 나라와 지역을 설정해주면 된다. 
 
