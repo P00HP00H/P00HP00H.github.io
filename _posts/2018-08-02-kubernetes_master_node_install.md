@@ -176,8 +176,6 @@ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$kubever"
 참고 블로그 :
 
 - https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
-
-
 - https://www.lesstif.com/pages/viewpage.action?pageId=22053128
 - https://www.lesstif.com/display/1STB/yum
 - http://ebtables.netfilter.org/documentation/bridge-nf.html
