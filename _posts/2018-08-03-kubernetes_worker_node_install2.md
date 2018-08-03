@@ -39,6 +39,7 @@ vim /etc/yum.repos.d/kubernetes.repo
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/47.JPG?raw=true" width="px">
 
 - **[kubernetes]** 
+
   : 저장소를 식별할 수 있는 id 로 여기에서는 "Kubernetes" 가 된다. yum 의 명령어 중에 저장소 목록을 보거나 특정 저장소를 지정하여 패키지를 설치하는 등의 저장소 관련 작업을 할 경우 필수 옵션으로 저장소의 id 를 넘겨줘야 하며 그 때 이 id를 사용하면 된다.
 
 - **name**
@@ -46,6 +47,7 @@ vim /etc/yum.repos.d/kubernetes.repo
   : 저장소의 이름이다.
 
 - **baseurl**
+
   : 패키지를 설치하거나 업데이트 시 사용할 기본 저장소의 URL을 지정하며 fastestmirror 를 사용하여 동적으로 저장소를 찾지 않을 수 있지만 고정된 URL 의 저장소를 사용할 경우 baseurl로 설정해 주면 된다.
 
 - **mirrorlist**
