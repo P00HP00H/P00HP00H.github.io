@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "others"
-title: "Linux 시간 설정하기"
+title: "Linux 시간 설정하기(1)"
 tags: ["others"]
 ---
 
