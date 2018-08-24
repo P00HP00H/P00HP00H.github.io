@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "linux"
+category: "storage"
 title: "iSCSI Target 설정"
-tags: ["linux"]
+tags: ["storage"]
 ---
 
 저번 포스팅에서 iSCSI에 대해서 알아보았다. 이 iSCSI와 이전에 배웠던 LVM을 통합해서 어떤  한 노드에서 iSCSI를 통해 다른 노드에 있는 디스크를 자신의 디스크처럼 사용하고 이를 원래 있던 디스크들과 함께 LVM으로 묶어볼 것이다. 이해를 돕기 위해 그림을 그려보면
