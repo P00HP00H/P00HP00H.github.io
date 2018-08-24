@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "others"
+category: "linux"
 title: "[CentOS] another app is currently holding the yum lock; waiting for it to exit..."
-tags: ["others"]
+tags: ["linux"]
 ---
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/77.JPG?raw=true" width="px">
