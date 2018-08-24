@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "others"
+category: "linux"
 title: "Linux 시간 설정하기(1)"
-tags: ["others"]
+tags: ["linux"]
 ---
 
 서버를 구축하면서 반드시 해야 할 작업 중의 하나가 시간을 제대로 맞추는 것이다. 도커 컨테이너를 띄울 때도 서버 시간과 컨테이너의 시간이 다른 경우가 있는데 상황에 따라 시간을 맞춰줘야 하는 경우가 생긴다. 해당 지역의 로컬 시간을 설정하기 위해서는 /etc/localtime을 원하는 지역의 것으로 바꾸어 주면 된다. 실습환경은 VM의 Ubuntu 16.04와 CentOS 7 두 곳에서 진행할 것이다.
