@@ -1,8 +1,8 @@
 ---
 layout: post
-category: "linux"
+category: "storage"
 title: "iSCSI initiator 설정"
-tags: ["linux"]
+tags: ["storage"]
 ---
 
 저번 포스팅에서 iSCSI Target을 설치했는데, 이번 포스팅에서는 iSCSI initiator를 설치해볼 것이다. 저번 포스팅에서도 언급했지만 iSCSI initiator 환경은 VM의 CentOS 7이다. 
