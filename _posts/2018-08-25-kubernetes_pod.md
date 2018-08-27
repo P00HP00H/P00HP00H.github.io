@@ -168,7 +168,7 @@ kubectl delete service pooh-pod-service
 
 ※ Pod 안에 한 개 이상의 컨테이너를 가질 수 있다고 했는데 왜 개별적으로 하나씩 컨테이너를 배포하지 않고 여러 개의 컨테이너를 Pod 단위로 묶어서 배포하는 것일까? 그 이유는 Pod가 다음과 같은 재미있는 특징을 갖고 있기 때문이다.
 
-- 1. Pod 내의 컨테이너는 IP와 Port를 공유한다. 
+- \1. Pod 내의 컨테이너는 IP와 Port를 공유한다. 
 
   : 예를 들어 2개의 컨테이너가 하나의 Pod를 통해서 배포되었다고 할 때, localhost를 통해서 통신이 가능하다.   만약 컨테이너 A가 80, 컨테이너 B가 6543으로 배포가 되었다고 하면 컨테이너 B에서 컨테이너 A를 호출할때는 localhost:80으로 호출하면 되고, 반대로 A에서 B를 호출할 때는 localhost:6543로 호출하면 된다.  위에서 만든 pod.yml로 실험을 해보자. 아까의 얘기를 다시 말해보면 현재 worker-node2에 pooh-db-container가 3306번 포트로 pooh-nginx-container가 80번 포트로 2개의 컨테이너가 배포된 상태이다. pooh-db-container에서 pooh-nginx-container를 호출할 때 localhost:80으로 호출할 수 있다. nginx는 웹서버이므로 눈으로 확인하기 쉽게 curl 명령어를 이용해보자(단, 컨테이너에 curl 명령어가 없어 apt-get install로 설치했습니다. 이 과정은 생략하고 썼음을 알려드립니다).
 
@@ -196,7 +196,7 @@ kubectl delete service pooh-pod-service
 
   ​
 
-- 2. Pod 내에 배포된 컨테이너 간에는 디스크 볼륨을 공유할 수 있다. 
+- \2. Pod 내에 배포된 컨테이너 간에는 디스크 볼륨을 공유할 수 있다. 
 
   여기는 뒤의 Volume 포스팅을 참고해주세요!
 
