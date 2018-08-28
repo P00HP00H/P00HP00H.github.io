@@ -144,7 +144,11 @@ kubectl get service
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/61.JPG?raw=true" width="px">
 
-pooh-db-container라는 이름의 mysql 컨테이너에 접속해봤는데 잘 실행이 된다. nginx 컨테이너도 이런 식으로 접속할 수 있다.
+pooh-db-container라는 이름의 mysql 컨테이너에 접속해봤는데 잘 실행이 된다. nginx 컨테이너도 이런 식으로 접속할 수 있다. 그럼 꼭 배포된 노드에서만 접속 가능한 것일까? 아니다. 마스터 노드에서도 접속이 가능하다.
+
+kubectl exec -ti [Pod명] bash(또는 /bin/bash)
+
+
 
 지금까지는 Pod와 expose 명령어를 통한 Service를 생성해봤다면 이제 삭제하는 방법에 대해 보도록 하자. 방법은 2가지다.
 
