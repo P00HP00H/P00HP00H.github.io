@@ -148,7 +148,9 @@ pooh-db-container라는 이름의 mysql 컨테이너에 접속해봤는데 잘 �
 
 kubectl exec -ti [Pod명] bash(또는 /bin/bash)
 
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/72.JPG?raw=true" width="750px">
 
+마스터 노드에서도 해당 Pod의 컨테이너에 접속이 잘 된다.
 
 지금까지는 Pod와 expose 명령어를 통한 Service를 생성해봤다면 이제 삭제하는 방법에 대해 보도록 하자. 방법은 2가지다.
 
