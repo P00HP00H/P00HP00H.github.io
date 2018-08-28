@@ -150,7 +150,7 @@ kubectl exec -ti [Pod명] bash(또는 /bin/bash)
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/72.JPG?raw=true" width="750px">
 
-마스터 노드에서도 해당 Pod의 컨테이너에 접속이 잘 된다.
+마스터 노드에서도 해당 Pod의 컨테이너에 접속이 잘 된다. 하지만 의문점이 하나 든다. 우리는 분명 하나의 Pod에 컨테이너를 2개 생성했다. 그런데 Pod명을 입력했을 때 어떤 특정 컨테이너에 접속된다. 이는 확인해보면 알겠지만 pod.yml에 먼저 설정해 준 컨테이너이다. pod.yml에 pooh-db-container를 먼저 써줬으므로 지금 마스터 노드에서 들어간 컨테이너는 pooh-db-container이다. 의심이 가면 mysql 명령어로 확인해보길 바란다.
 
 지금까지는 Pod와 expose 명령어를 통한 Service를 생성해봤다면 이제 삭제하는 방법에 대해 보도록 하자. 방법은 2가지다.
 
