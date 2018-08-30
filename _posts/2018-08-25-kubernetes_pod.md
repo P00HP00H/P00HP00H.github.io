@@ -70,11 +70,11 @@ Pod 는 쿠버네티스에서 가장 기본적인 배포 단위로 컨테이너�
 
   : Pod가 특정 노드에서만 실행되도록 정의하는 부분으로 hostname=worker-node2라고 정의했으므로 hostname(노드 이름)이 worker-node2인 노드에만 실행(배포)되도록 해준다. 이를 지정해주지 않으면 임의의 노드에 Pod가 실행된다. 어느 노드에서 실행되어도 상관없다면 굳이 정의해 줄 필요는 없다.<br>단, 이 옵션을 사용하기 위해선 해당 노드에 label을 추가해줘야 한다. 이 nodeSelector가 노드의 label을 보고 해당 노드에 Pod를 서비스하기 때문이다.
 
-  kubectl get nodes [node명] hostname=[label명]
+  kubectl label nodes [node명] hostname=[label명]
 
   node명은 kubectl get nodes 명령어를 통해 node들을 볼 수 있는데 이들 중 하나를 택하면 된다. 뒤의 label명은 짓고 싶은대로 지으면 되는데 필자의 경우는 이름과 label을 그냥 똑같이 했다(hostname=[label명]의 hostname은 nodeSeletor에 hostname으로 구별하기 때문에 저렇게 써준 거고 다른 것들을 쓸 수도 있다. 추후에 또 다룰 기회가 있으면 그 때 다시 설명하겠다).
 
-  kubectl get nodes worker-node2 hostname=worker-node2
+  kubectl label nodes worker-node2 hostname=worker-node2
 
   <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/68.JPG?raw=true" width="px">
 
