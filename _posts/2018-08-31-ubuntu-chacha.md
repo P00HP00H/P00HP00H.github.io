@@ -8,7 +8,7 @@ tags: ["others"]
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/Others/124.JPG?raw=true" width="750px">
 
-이 에러는 Edit plus 암호화 알고리즘이 일치하지 않는다는 에러로 검색해보니 ssh 버전이 높으면 나타나는 것이라고 한다. 이런 경우는 서버에서 설정을 해줘야 한다. Ubuntu에서는 /etc/ssh/sshd_config에다가 밑의 내용을 추가해주면 된다.
+이 에러는 Edit plus 암호화 알고리즘이 일치하지 않는다는 에러로 검색해보니 서버의 ssh 버전이 높으면 나타나는 것이라고 한다. 이런 경우는 서버에서 설정을 해줘야 한다. Ubuntu에서는 /etc/ssh/sshd_config에다가 밑의 내용을 추가해주면 된다.
 
 vim /etc/ssh/sshd_config
 
