@@ -15,16 +15,12 @@ tags: [chat-bot]
 
 Django를 사용하기 위해서는 Django를 설치해줘야 하는데 설치하기 전에 먼저 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
 
-$ sudo pip install –-upgrade pip<br>
+$ sudo pip install –-upgrade pip<br><br>
 pip를 최신 버전으로 해줬으면 이젠 Django를 설치해보자.
-
-
-
-$ sudo pip install Django 
+<br><br><br>
+$ sudo pip install Django<br><br>
 장고를 설치한다.
-
-
-
+<br><br><br>
 $ django-admin startproject pooh_chatbot .
 
 pooh_chatbot이라는 이름의 프로젝트를 생성한다.
