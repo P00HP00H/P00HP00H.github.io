@@ -10,9 +10,7 @@ tags: [chat-bot]
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/7.JPG?raw=true" width="750px">
 
 챗봇의 구조를 보게 되면 서버가 필요함을 알 수 있다. 필자는 따로 서버를 가지고 있지 않아서 VM을 서버로 두었다. 이 부분은 PHP 챗봇에 자세하게 적어두었기 때문에 모르겠으면 '[PHP 챗봇] 1. VM서버 셋팅' 편을 참고하길 바란다. 지금은 이러한 서버 환경을 셋팅하는 방법에 대해서는 다루지 않겠다. 환경은 PHP 챗봇일때와 마찬가지로 Ubuntu 16.04 LTS이며 셋팅이 다 되어 있는 상태라고 하고 진행할 것이다.
-<br>
-
-
+<br><br><br>
 <h3>Django 설치 및 프로젝트 생성</h3>
 
 Django를 사용하기 위해서는 Django를 설치해줘야 하는데 설치하기 전에 먼저 pip가 최신 버전으로 되도록 업그레이드를 시켜준다.
