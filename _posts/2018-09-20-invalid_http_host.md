@@ -9,7 +9,7 @@ $ sudo python manage.py runserver 0.0.0.0:8000
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/41.jpg?raw=true" width="750px">
 
-로컬에서 Django 서버를 실행할 때는 문제가 없었으나 이를 외부에서 접속 가능하게끔 했더니 Invalid HTTP_HOST_ header: 'IP'. You may need to add u'IP' to ALLOWED_HOSTS라는 에러가 발생했다. 이를 해석해보면 필자의 IP에 대한 HTTP_HOST_header가 이용가능하지 못하므로 ALLOWED_HOST에 해당 IP를 추가할 필요가 있다는 뜻이다. ALLOWED_HOST는 장고 프로젝트의 settings.py에 있으므로 settings.py에서 설정을 해주면 된다.
+로컬에서만 접근이 가능하도록 Django 서버를 실행할 때는 문제가 없었으나 이를 외부에서 접속 가능하게끔 했더니 Invalid HTTP_HOST_ header: 'IP'. You may need to add u'IP' to ALLOWED_HOSTS라는 에러가 발생했다. 이를 해석해보면 필자의 IP에 대한 HTTP_HOST_header가 이용가능하지 못하므로 ALLOWED_HOST에 해당 IP를 추가할 필요가 있다는 뜻이다. ALLOWED_HOST는 장고 프로젝트의 settings.py에 있으므로 settings.py에서 설정을 해주면 된다.
 
 vim ~/pooh_chatbot/settings.py
 
