@@ -44,7 +44,7 @@ vim ~/pooh_chatbot/urls.py
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/45.JPG?raw=true" width="px">
 
-그러고 나서 챗봇에서 버튼을 눌러 응답을 살펴보면
+아래에 표시된 내용을 추가해 준 다음 챗봇에서 버튼을 눌러 응답을 살펴보면
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/46.jpg?raw=true" width="px">
 
