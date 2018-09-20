@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "django"
-title:  "Invalid HTTP_HOST header: 'IP'. You may need to add u'IP' to ALLOWED_HOSTS."
+title:  "[Django] Invalid HTTP_HOST header: 'IP'. You may need to add u'IP' to ALLOWED_HOSTS."
 tags: [django]
 ---
 
