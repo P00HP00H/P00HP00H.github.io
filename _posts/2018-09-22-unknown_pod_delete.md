@@ -12,7 +12,7 @@ Pod가 생성되는 도중에 또는 잘 생성되었다가 어떤 이유 때문
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/101.JPG?raw=true" width="750px">
 
-kubectl describe pod(s) [Pod명] 을 입력하면 현재 Pod 상태를 자세하게 볼 수 있다. 현재 pooh-db-nginx-pod는 Terminateing, 즉, 종료된 상태이며 Reason(이유)는 NodeLost(노드를 잃어버림)이다. 그 밑의 Message를 보면 pooh-db-nginx-pod를 실행하는 노드인 worker-node2가 unresponsive(응답이 없음) 상태라고 나온다. 메시지대로 필자의 경우 worker-node2에 Pod를 생성했고 처음에 Running 상태였으나 worker-node2의 Pod가 삭제되지 않은 채로 worker-node2가 꺼져버렸기 때문에 저런 에러가 떴던 것이다. 이 외에도 여러 이유가 있을 수 있다. 중요한 건 Unknown의 이유가 아니라 Unknown 상태 자체이다. 이럴 때는 Pod 삭제를 못하는 것일까? 아니다. 다음처럼 해주면 된다.
+kubectl describe pod(s) [Pod명] 을 입력하면 현재 Pod 상태를 자세하게 볼 수 있다. 현재 pooh-db-nginx-pod는 Terminating, 즉, 종료된 상태이며 Reason(이유)는 NodeLost(노드를 잃어버림)이다. 그 밑의 Message를 보면 pooh-db-nginx-pod를 실행하는 노드인 worker-node2가 unresponsive(응답이 없음) 상태라고 나온다. 메시지대로 필자의 경우 worker-node2에 Pod를 생성했고 처음에 Running 상태였으나 worker-node2의 Pod가 삭제되지 않은 채로 worker-node2가 꺼져버렸기 때문에 저런 에러가 떴던 것이다. 이 외에도 여러 이유가 있을 수 있다. 중요한 건 Unknown의 이유가 아니라 Unknown 상태 자체이다. 이럴 때는 Pod 삭제를 못하는 것일까? 아니다. 다음처럼 해주면 된다.
 
 kubectl delete pod(s) [Pod명] --grace-period=0 --force
 
