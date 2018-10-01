@@ -35,7 +35,7 @@ json 데이터들을 처리해줘야 하기 때문에 먼저 import json을 추�
 
   : 사용자가 누른 버튼에서 필드명이 content인 항목을 저장하는데, 이를 통해서 각 버튼값을 구별한다.
 
-<br><br><br>그 밑의 코드들을 보게 되면 if문을 통해 각 버튼값에 대한 응답을 다르게 return 하도록 했다. 그럼 코드대로 잘 나오는지 챗봇에서 확인해보자.
+<br><br>그 밑의 코드들을 보게 되면 if문을 통해 각 버튼값에 대한 응답을 다르게 return 하도록 했다. 그럼 코드대로 잘 나오는지 챗봇에서 확인해보자.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/vmserver-setting/52.JPG?raw=true" width="px">
 
