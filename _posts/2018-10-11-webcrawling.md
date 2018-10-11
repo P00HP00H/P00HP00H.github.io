@@ -19,7 +19,7 @@ tags: [chat-bot]
 
 현재는 views.py에 keyboard함수와 message함수만 구현되어 있는 상태이다. views.py에 라이브러리 추가한 다음 함수 만들어서 구현해도 되지만 필자는 따로 parsing.py 파일을 만들어서 진행하려고 한다. 크롤링 할 때는 BeautifulSoup 라이브러리를 이용할 것이다. BeautifulSoup은 html을 파싱하는데 사용하는 Python 라이브러리이다.
 
-먼저 http request 라이브러리인 requests를 설치해줘야 하는데, requests 라이브러리는 파이썬에 내장된 urllib 모듈을 편하게 사용하도록 만든 것이다. 설치는 pip를 이용하면 된다.
+그 전에 먼저 http request 라이브러리인 requests를 설치해줘야 한다. requests 라이브러리는 파이썬에 내장된 urllib 모듈을 편하게 사용하도록 만든 것으로 설치는 pip를 이용해서 할 수 있다.
 
 $ sudo pip install requests
 
