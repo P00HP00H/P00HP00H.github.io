@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "chat-bot"
-title:  "[Django 챗봇] 웹 크롤링"
+title:  "[Django 챗봇] 3-1. 웹 크롤링(1)"
 tags: [chat-bot]
 ---
 
