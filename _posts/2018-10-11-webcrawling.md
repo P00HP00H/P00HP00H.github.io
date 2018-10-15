@@ -37,7 +37,7 @@ $ vim parsing.py
 
 - import requests<br>from bs4 import BeautifulSoup
 
-  : BeautifulSoup의 기능들을 사용하기 위한 설정이다.
+  \: BeautifulSoup의 기능들을 사용하기 위한 설정이다.
 
 
 - req = requests.get(http://sj.hongik.ac.kr/site/food/food_menu.html)
