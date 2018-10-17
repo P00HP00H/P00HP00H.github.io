@@ -46,9 +46,7 @@ tags: [linux]
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/103.JPG?raw=true" width="px">
 
 맨 밑에 14 fewer lines라는 메시지와 함께 linux라는 단어를 포함해서 그 밑의 내용들이 모두 지워졌다.
-
-
-
+<br><br><br>
 이번엔 커서 이동 명령어에 대해서 알아보자. 코드가 끊기지 않고(줄바꿈 되지 않고) 길어지면 n줄이 되더라도 줄번호는 하나로 인식된다. 그런 경우 그 줄의 코드 중간으로 가려면 한칸 한칸씩 이동해야 하는데 너무 귀찮다. 이런 경우는 특정 단어를 검색하면 빠르다. 방법은
 
 - /'단어'
@@ -60,9 +58,7 @@ tags: [linux]
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/linux/99.jpg?raw=true" width="750px">
 
 커서(연두색)가 검색한 단어 있는 곳으로 옮겨짐과 동시에 검색한 부분이 노란색으로 표시되었음을 확인할 수 있다. i(INSERT)를 눌러 바로 수정해주면 된다.
-
-
-
+<br><br><br>
 이번엔 화면 단위 이동 명령어에 대해 알아보자.
 
 - Page Down,  Ctrl + f : 한 화면 밑으로 이동하는 명령어
