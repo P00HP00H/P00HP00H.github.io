@@ -13,7 +13,7 @@ views.py 81번째 줄에서 에러가 나서 urls.py에도 에러가 발생한 �
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/python/2.JPG?raw=true" width="750px">
 
-파란색 부분이 에러가 발생한 위치이다. 하지만 코드상 아무리 봐도 잘못된 부분이 없는 것 같았다. 그래서 에러 IndentationError: unindent does not match any outer indentation level을 검색해보니 들여쓰기가 잘못돼서 나는 에러라고 한다. 리눅스의 vim으로 보니까 어느 부분에서 들여쓰기가 잘못됐는지 잘 안 보여서 Pycharm 툴로 코드를 보기로 했다.
+파란색 부분이 에러가 발생한 위치이다. 하지만 코드상 아무리 봐도 잘못된 부분이 없는 것 같았다. 그래서 에러 IndentationError: unindent does not match any outer indentation level을 검색해보니 들여쓰기가 잘못돼서 나는 에러라고 한다. 리눅스의 vim으로 보니까 어느 부분에서 들여쓰기가 잘못됐는지 잘 안 보여서 Pycharm으로 코드를 보기로 했다.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/python/3.JPG?raw=true" width="750px">
 
