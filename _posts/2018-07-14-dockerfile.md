@@ -117,11 +117,10 @@ build가 완료되면 잘 만들어졌는지 docker images 명령어로 확인�
 잘 만들어졌음을 알 수 있다. 다음 포스팅에서는 해당 이미지가 dockerfile 설정대로 잘 만들어졌는지 컨테이너를 띄워보면서 확인해보자.
 <br><br><br>
 
-참고 블로그 : http://ryumso86.tistory.com/2
+참고 사이트 : 
+- http://ryumso86.tistory.com/2
 
-​                       http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter04/02
+- http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter04/02
 
-​                       https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html
-
-​			
+- https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html
 
