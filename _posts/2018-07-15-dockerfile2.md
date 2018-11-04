@@ -67,5 +67,5 @@ docker run -it poohpooh:test /bin/bash
 
 - VOLUME ["/pooh"]
 
-  이는 저번 포스팅에서도 얘기했지만 사실 이를 따로 설정해주지 않아도 docker run의 -v 옵션을 설정해주면 호스트의 디렉토리와 컨테이너의 디렉토리를 연결해 줄 수 있다. 처음에 docker run을 할 때 -v 옵션을 주지 않았기 때문에 지금 이 VOLUME 명령어는 의미가 없다.
+  컨테이너의 /pooh 디렉토리를 Docker-Volume에 마운트시킨다는 의미이다. 이렇게 해주면 -v 옵션으로 따로 주지 않아도 Docker-Volume과 연동이 된다. 단, Docker-Volume의 이름은 해쉬값으로 저장한다. 이에 대한 자세한 내용은 저번 포스팅에서도 얘기했지만 추후에 자세하게 다룰 예정이다.
 
