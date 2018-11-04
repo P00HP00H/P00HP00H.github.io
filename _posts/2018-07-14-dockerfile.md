@@ -71,9 +71,7 @@ tags: ["docker"]
   -v \<호스트 디렉토리\>:\<컨테이너 디렉토리\>
 
   추후에 Docker-Volume에 대해서 자세하게 포스팅 할 것이기 때문에 Docker-Volume 포스팅을 참조하기 바란다.
-
-
-맨 위 dockerfile에는 없지만 3개 명령어를 추가로 더 보면
+<br><br><br>맨 위 dockerfile에는 없지만 3개 명령어를 추가로 더 보면
 
 - .dockerignore : 이 녀석은 명령어라기 보다는 Dockerfile같은 파일이다. Dockerfile과 같은 디렉터리에 있는 모든 파일을 Context라고 하는데 그 중 이미지를 생성할때 필요없는 파일들은 해당 디렉토리에 .dockerignore 파일을 만든 후 .dockerigonore 파일에 작성하면 된다. Docker는 Go언어로 작성되어있기때문에 Go문법에 따라 작성해주면 되고, 자세한 건 검색을 해보길 바란다.
 
