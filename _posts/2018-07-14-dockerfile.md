@@ -70,19 +70,7 @@ tags: ["docker"]
 
   -v \<호스트 디렉토리\>:\<컨테이너 디렉토리\>
 
-  이건 필자의 개인적인 의견인데, 사실 VOLUME 옵션을 왜 사용해야 하는지 잘 모르겠다. VOLUME을 사용해줘야만 호스트 디렉토리와 컨테이너 디렉토리가 연결되는 줄 알았는데, VOLUME을 지정해주지 않은 컨테이너의 특정 디렉토리와 호스트 디렉토리를 docker run의 -v 옵션으로 그냥 연결해줬더니 연결이 잘 된다. 단지 설정 파일의 정보를 보기 위해 쓰는 것인가 하는 생각도 든다. 아까 ADD에서 테스트했던 dockerfile로 다시 예를 들어보자. 아까도 봤지만 테스트를 위해 만들었던 dockerfile은 이러하다.
-
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/41.JPG?raw=true" width="px">
-
-  이를 아까처럼 poohpooh:test라는 이미지로 만들면 VOLUME을 따로 지정해주지도 않았고 ADD에 의해 압축이 해제된 linux-test라는 이름의 디렉토리와 그 안에 소스파일들이 있어야 한다. docker run에 -v 옵션으로 호스트 디렉토리(/home/pooh/volumes)와 컨테이너의 디렉토리(/pooh)를 연결해서 poohpooh:test의 컨테이너를 실행시켜 보자.
-
-  docker run -it -v /home/pooh/volumes:/pooh --rm poohpooh:test /bin/bash
-
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/43.JPG?raw=true" width="750px">
-
-  하지만 막상 /pooh를 들여다보면 linux-test는 없고 kkk.txt만 있다. 위의 그림에도 나와 있듯이 kkk.txt는 호스트의 디렉토리(/home/pooh/volumes)에 있는 파일이다. 즉 호스트의 디렉토리(/home/pooh/volumes)와 컨테이너의 디렉토리(/pooh)는 잘 연결된 것이다. 이 현상을 보고 이렇게 dockerfile에다가 VOLUME 명령어를 사용하지 않아서라고 생각할 수도 있다. 하지만 VOLUME을 지정해도 똑같이 이런 결과가 나온다.<br>이에 대해서는 추후 포스팅인 도커 볼륨부분에서 자세하게 다룰테니 지금은 이 정도로만 하고 넘어가자. 지금 여기서 얘기하고자 하는 것은 dockerfile에서 VOLUME 명령을 해주지 않았음에도 호스트의 디렉토리와 컨테이너의 디렉토리가 잘 연결된다는 것이다.
-
-
+  추후에 Docker-Volume에 대해서 자세하게 포스팅 할 것이기 때문에 Docker-Volume 포스팅을 참조하기 바란다.
 
 
 맨 위 dockerfile에는 없지만 3개 명령어를 추가로 더 보면
