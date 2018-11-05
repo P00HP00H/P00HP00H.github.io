@@ -172,7 +172,7 @@ Service 오브젝트의 type에는 다음과 같은 종류가 있다.
 
   2) 노드의 30001포트로 접속
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/89.JPG?raw=true" width="px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/85.JPG?raw=true" width="px">
 
   ​
 
