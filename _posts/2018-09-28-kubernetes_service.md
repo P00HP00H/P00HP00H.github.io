@@ -166,7 +166,7 @@ Service 오브젝트의 type에는 다음과 같은 종류가 있다.
 
   1) 클러스터 IP의 8080포트로 접속
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/88.JPG?raw=true" width="px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/89.JPG?raw=true" width="px">
 
   ​
 
@@ -178,7 +178,7 @@ Service 오브젝트의 type에는 다음과 같은 종류가 있다.
 
   하지만 이렇게 LoadBalancer를 제공하는 클라우드의 IP를 설정해주지 않고 type만 LoadBalancer로 지정해주면 type이 NodePort인 경우와 다를 게 없다. 그래서 실제로 클라우드의 LoadBalancer를 이용할 때는 이런 식으로 지정해줘야 한다.
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/106.jpg?raw=true" width="px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/88.JPG?raw=true" width="px">
 
   111.111.111.111이 LoadBalancer를 제공하는 클라우드의 IP이다. 추후에 이용할 클라우드가 있으면 ExternalName 방식과 함께 다시 포스팅하도록 하겠다.
 
