@@ -122,7 +122,7 @@ Service 오브젝트의 type에는 다음과 같은 종류가 있다.
 
   1) 클러스터 IP의 8080포트로 접속
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/84.JPG?raw=true" width="750px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/85.JPG?raw=true" width="px">
 
   클러스터 IP는 배포된 노드에만 적용된다 했으므로 현재 배포된 곳인 worker-node2에서 curl을 이용해 해당 클러스터 IP와 포트번호를 입력하면 잘 나오는 것을 확인할 수 있다.
 
@@ -130,7 +130,7 @@ Service 오브젝트의 type에는 다음과 같은 종류가 있다.
 
   2) 노드의 30001포트로 접속
 
-  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/85.JPG?raw=true" width="px">
+  <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/84.JPG?raw=true" width="750px">
 
   /etc/hosts에 worker-node2의 IP를 등록해놨기에 저렇게 이름을 쓴 것이고 원래는 노드의 IP를 입력하면 된다. 각 노드의 IP는 kubectl get nodes -o wide로 확인할 수 있고 Pod가 배포된 노드의 IP를 확인하고 싶으면 kubectl get pods -o wide를 입력해주면 된다. 포트번호 30001과 함께 입력해주면 잘 나오는 것을 확인할 수 있다.
 
