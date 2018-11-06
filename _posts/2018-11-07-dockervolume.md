@@ -23,7 +23,7 @@ $ docker volume inspect [Docker-Volume name]
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/63.JPG?raw=true" width="750px">
 
 물론 이 명령어는 하나의 Docker-Volume에 대해 자세하게 나오는 것이다. 만약 docker volume ls로 조회가 안 되는데 Docker-Volume의 이름을 알고 있다면 docker volume inspect 명령어로 만들어졌는지 확인하면 된다. 그림에서처럼 위는 우리가 알아볼 수 있는 Docker-Volume name인 반면 밑은 Docker-Volume name이 해쉬값으로 되어 있다. 그럼 어떤 경우에 Docker-Volume name이 해쉬값일까? 다음의 경우를 보자. 
-
+<br><br><br>
 - <h3>Dockerfile에서 Docker-Volume을 volume으로 지정하는 경우</h3>
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/64.JPG?raw=true" width="px">
@@ -69,9 +69,7 @@ $ docker inspect --format="{{.Mounts}}" pooh_volume
 잘 mount 되어있다.
 
 이렇게 dockerfile에서는 Docker-Volume의 이름을 지정할 수는 없고 만약 해쉬값이 아닌 이름으로 관리를 하고 싶다면 다른 방법을 이용해야 한다. 그 방법은 먼저 Docker-Volume을 만든 다음, 컨테이너를 띄울 때(docker run할 때) 만들어놓은 Docker-Volume과 연동시키는 것이다.
-
-
-
+<br><br><br>
 - <h3>Docker-Volume을 만든 후 컨테이너를 띄울 때(docker run할 때) 만들어 놓은 Docker-Volume을 volume으로 지정하는 경우</h3>
 
 $ docker volume create [Docker-Volume name]
