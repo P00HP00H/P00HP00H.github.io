@@ -22,7 +22,7 @@ $ docker volume inspect [Docker-Volume name]
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/63.JPG?raw=true" width="750px">
 
-물론 이 명령어는 하나의 Docker-Volume에 대해 자세하게 나오는 것이다. 만약 docker volume ls로 조회가 안 되는데 Docker-Volume의 이름을 알고 있다면 docker volume inspect 명령어로 만들어졌는지 확인하면 된다. 그림에서처럼 위는 우리가 알아볼 수 있는 Docker-Volume name인 반면 밑은 Docker-Volume name이 해쉬값으로 되어 있다. 그럼 어떤 경우에 Docker-Volume name이 해쉬값일까? 다음의 경우를 보자. 
+물론 이 명령어는 하나의 Docker-Volume에 대해 자세하게 나오는 것이다. 만약 docker volume ls로 조회가 안 되는데 Docker-Volume의 이름을 알고 있다면 docker volume inspect 명령어로 만들어졌는지 확인하면 된다. 그림에서처럼 위는 우리가 알아볼 수 있는 Docker-Volume name인 반면 밑은 Docker-Volume name이 해쉬값으로 되어 있다. 어떤 경우에 Docker-Volume name이 해쉬값인지는 뒤에 나온다. 이제부터 Docker-Volume들이 Docker에서 어떻게 쓰일 수 있는지 알아보자. 
 <br><br><br>
 - <h3>Dockerfile에서 Docker-Volume을 volume으로 지정하는 경우</h3>
 
