@@ -5,10 +5,8 @@ title: "Docker-Volume(1)"
 tags: ["docker"]
 ---
 이번 포스팅에서는 Docker-Volume에 대해서 다루고자 하는데 좀 길어져서 2번으로 나눠서 하려고 한다(너무 길어지면 읽기 싫어지니까...ㅎㅎ). 먼저 Docker-Volume이 무엇인지부터 알아보자.
-
-
-
-- Docker-Volume
+<br><br><br>
+- <h3>Docker-Volume</h3>
 
 : Docker가 관리해주는 볼륨으로 Docker로 컨테이너를 띄웠을 때 데이터를 유지시켜주는 역할을 한다.  컨테이너의 변경 상태를 저장하려면 이미지로 저장해야 하는데, 그럴 필요없이 필요한 부분(디렉토리)을  Docker-Volume과 연동시키면 컨테이너의 변경 사항이 Docker-Volume에 그대로 저장이 된다. 그래서, Container를 내렸다가 올리더라도 Docker-Volume에서 데이터들을 불러오기 때문에 저장된 상태가 유지된다. Docker-Volume의 경로는 /var/lib/docker/volumes/[Docker-Volume name]에 있고 저장된 데이터는 /var/lib/docker/volumes/[Docker-Volume명]/_data/에 있다.
 
@@ -26,7 +24,7 @@ $ docker volume inspect [Docker-Volume name]
 
 물론 이 명령어는 하나의 Docker-Volume에 대해 자세하게 나오는 것이다. 만약 docker volume ls로 조회가 안 되는데 Docker-Volume의 이름을 알고 있다면 docker volume inspect 명령어로 만들어졌는지 확인하면 된다. 그림에서처럼 위는 우리가 알아볼 수 있는 Docker-Volume name인 반면 밑은 Docker-Volume name이 해쉬값으로 되어 있다. 그럼 어떤 경우에 Docker-Volume name이 해쉬값일까? 다음의 경우를 보자. 
 
-- Dockerfile에서 Docker-Volume을 volume으로 지정하는 경우
+- <h3>Dockerfile에서 Docker-Volume을 volume으로 지정하는 경우</h3>
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/64.JPG?raw=true" width="px">
 
