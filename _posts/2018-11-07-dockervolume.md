@@ -80,13 +80,13 @@ $ docker volume create [Docker-Volume name]
 
 이렇게 하면 자신이 지은 이름(mysql_test)의 Docker-Volume을 생성한 것이다. 이렇게 하면 해쉬값일 때보다 알아보기가 쉬워 관리하기도 쉽다. 이 상태에서 컨테이너를 띄울 때(docker run 할 때) -v 옵션으로 방금 생성한 Docker-Volume과 컨테이너의 해당 경로를 연결시켜주면 된다. 사실 정확히는 Docker-Volume을 컨테이너 디렉토리에 mount 시키는 것이다.
 
-$ docker run -it -v [Docker-Volume name]:[컨테이너 해당 경로] --rm [Docker image] /bin/bash
+$ docker run -it -v [Docker-Volume name]:[컨테이너 디렉토리] --rm [Docker image] /bin/bash
 
 $ docker run -it -v mysql_test:/etc/mysql --rm mysql:5.7 /bin/bash
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/66.JPG?raw=true" width="750px">
 
-현재 컨테이너의 /etc/mysql 경로에는 해당 파일들이 있다. 이 컨테이너의 /etc/mysql 경로에 pooh.txt 파일을 하나 추가해보자. 
+현재 컨테이너의 /etc/mysql에는 해당 파일들이 있다. 이 컨테이너의 /etc/mysql 경로에 pooh.txt 파일을 하나 추가해보자. 
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/67.JPG?raw=true" width="px">
 
