@@ -78,7 +78,7 @@ $ docker volume create [Docker-Volume name]
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/65.JPG?raw=true" width="px">
 
-이렇게 하면 자신이 지은 이름(mysql_test)의 Docker-Volume을 생성한 것이다. 이렇게 하면 해쉬값일 때보다 알아보기가 쉬워 관리하기도 쉽다. 이 상태에서 컨테이너를 띄울 때(docker run 할 때) -v 옵션으로 방금 생성한 Docker-Volume과 컨테이너의 해당 경로를 연결시켜주면 된다.
+이렇게 하면 자신이 지은 이름(mysql_test)의 Docker-Volume을 생성한 것이다. 이렇게 하면 해쉬값일 때보다 알아보기가 쉬워 관리하기도 쉽다. 이 상태에서 컨테이너를 띄울 때(docker run 할 때) -v 옵션으로 방금 생성한 Docker-Volume과 컨테이너의 해당 경로를 연결시켜주면 된다. 사실 정확히는 Docker-Volume을 컨테이너 디렉토리에 mount 시키는 것이다.
 
 $ docker run -it -v [Docker-Volume name]:[컨테이너 해당 경로] --rm [Docker image] /bin/bash
 
@@ -96,13 +96,16 @@ $ cd /var/lib/docker/volumes/mysql_test/_data/
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/68.JPG?raw=true" width="px">
 
-mysql 컨테이너의 /etc/mysql에 있는 파일들이 똑같이 있다. 그 다음 다시 컨테이너에 접속해있는 터미널로 다시 가서 exit로 컨테이너를 빠져나가면 --rm 옵션을 줬기 때문에 컨테이너는 사라진다. 따라서, 원래 Docker-Volume과 연동시키지 않았으면 다시 mysql 컨테이너를 띄웠을 때 아까 전에 mysql 컨테이너의 /etc/mysql에 새로 추가한 pooh.txt가 없어야 한다.
+mysql 컨테이너의 /etc/mysql에 있는 파일들이 똑같이 있다. 원래대로라면 Docker-Volume을 생성한 후 Docker-Volume에다가 파일을 추가하거나 그런 과정이 없었기 때문에 비어있는 상태이므로 빈 디렉토리가 컨테이너 디렉토리(/etc/mysql)에 mount되어야 하는데, Docker-Volume의 경우 비어있는 상태에서 컨테이너 디렉토리에 mount시키면 컨테이너 디렉토리에 파일이나 하위 디렉토리가 있다고 가정할 때 해당 파일이나 하위 디렉토리들을 Docker-Volume으로 그대로 복사한다. 하지만 Docker-Volume에 무언가가 있으면 Docker-Volume이 그대로 컨테이너 디렉토리로 mount된다. 예를 들어, Docker-Volume에 aaa.txt가 있고 컨테이너 디렉토리에 bbb.txt가 있다고 할 때 -v 옵션으로 둘을 연동시키면 컨테이너 디렉토리에서도 Docker-Volume이 mount 되기 때문에 bbb.txt는 보이지 않고 aaa.txt만 보이게 된다.
+
+다시 돌아와서 컨테이너에 접속해있는 터미널로 가서 exit로 컨테이너를 빠져나가면 --rm 옵션을 줬기 때문에 컨테이너는 사라진다. 따라서, 원래는 Docker-Volume과 연동시키지 않았으면 다시 mysql 컨테이너를 띄웠을 때 아까 전에 mysql 컨테이너의 /etc/mysql에 새로 추가한 pooh.txt가 없어야 한다.
+
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/69.JPG?raw=true" width="px">
 
-하지만, 다시 Docker-Volume과 연동시켜 컨테이너를 띄웠기 때문에 Docker-Volume에 저장된 데이터들을 불러와 pooh.txt가 있음을 확인할 수 있다. 컨테이너의 데이터들은 휘발성이기 때문에 컨테이너가 내려갔다가 다시 올라가면(띄워지면) 변경 사항들이 다 없어지지만 이렇게 Docker-Volume을 사용하게 되면 변경 사항이 저장된다. 이게 Docker-Volume이 사용되는 이유다.
+하지만, 다시 Docker-Volume과 연동시켜 컨테이너를 띄웠기 때문에 Docker-Volume에 저장된 데이터들을 불러와 pooh.txt가 있음을 확인할 수 있다. 좀 더 정확히 말하면, 아까 전에 Docker-Volume에 컨테이너 파일들이 복사됐기 때문에 이제 컨테이너와 연동시키면 해당 컨테이너 디렉토리에 mount가 되게 된다. 그래서, 원래는 컨테이너의 데이터들은 휘발성이기 때문에 컨테이너가 내려갔다가 다시 올라가면(띄워지면) 변경 사항들이 다 없어져야 하지만 이렇게 Docker-Volume을 사용하게 되면 변경 사항이 저장된다. 이게 Docker-Volume이 사용되는 이유다.
 
-그런데, 이런 의문점이 들 수 있다. 초기 Docker-Volume(아무것도 mount 되지 않은 상태) 상태에서 docker run -v 옵션으로 컨테이너와 연결했을 때는 컨테이너의 디렉토리가 Docker-Volume에 mount 됐다. 따라서, 이번에도 docker run -v 옵션으로 컨테이너와 Docker-Volume을 연결했기 때문에 컨테이너의 /etc/mysql이 Docker-Volume을 mount하여 pooh.txt 파일이 없어져야 하는 거 아닌가 하는 생각이 들 수도 있다. 하지만 그게 아니다. 이에 대한 내용은 다음 포스팅에 나온다. 다음 포스팅에서 이어서 하겠다.
+지금은 -v로 Docker-Volume과 컨테이너 디렉토리를 연동시켰지만 다음 포스팅에서는 호스트 디렉토리와 연동시키는 것에 대해서 알아볼 건데 Docker-Volume과 연동시켰을 때와 살짝 다르다. 일단 이번 포스팅은 여기서 마치겠다.
 
 <br><br><br>
 
