@@ -21,9 +21,7 @@ $ docker run -it --rm ubuntu:16.04 /bin/bash
 $ echo '1' > pooh.txt
 
 이제 이 컨테이너 자체를 백업해보자. 
-
-
-
+<br><br><br>
 <h4>(1) 컨테이너 상태 저장하기</h4>
 
 백업하기 전에 컨테이너 상태를 먼저 저장해야 한다. --rm 옵션이 있어서 해당 컨테이너를 나가면 바로 삭제되기 때문에 터미널을 하나 더 켜서 새로운 터미널에서 해당 명령을 입력해보자.
@@ -43,9 +41,7 @@ docker images를 통해 확인해보면 pooh_backup:test라는 이름의 도커 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/96.JPG?raw=true" width="750px">
 
 아까 만들었던 pooh.txt가 있는 것을 확인할 수 있다.
-
-
-
+<br><br><br>
 <h4>(2) 백업하기</h4>
 
 도커 이미지가 있는 곳으로 commit한 이미지가 저장된 것으로 보아 이 자체가 백업이라고 생각할 수 있는데 docker가 삭제되면 도커 이미지들도 모두 삭제되기 때문에 해당 이미지를 압축파일로 저장해서 호스트에 저장하는 방식으로 백업해야 한다. 
@@ -59,9 +55,7 @@ $ docker save -o /home/pooh/test14/pooh_backup.tar pooh_backup:test
 단, 저장 경로는 반드시 만들어져 있는 디렉토리여야 한다. 그렇지 않으면 밑의 화면처럼 없는 경로라고 에러가 뜬다.
 
 <img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/docker/98.JPG?raw=true" width="750px">
-
-
-
+<br><br><br>
 <h4>(3) 복원하기</h4>
 
 도커 이미지가 없는 상태에서 잘 동작하는지 확인하기 위해 백업하면서 만들어졌던 pooh_backup:test 이미지를 지워보자.
