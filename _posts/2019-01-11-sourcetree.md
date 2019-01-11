@@ -6,9 +6,7 @@ tags: [git]
 ---
 
 이번 포스팅에서는 소스트리(Source Tree)에 대해서 알아보고자 한다. 소스트리가 무엇인지부터 알아보자.
-
-
-
+<br><br><br>
 - 소스트리(Source Tree)란:
 
   : Atlassian에서 개발한 git을 GUI로 사용자가 더 쉽게 사용할 수 있도록 해주는 프로그램이다. 이 소스트리는 Windows와 Mac OS를 지원하고 있으며 라이센스는 무료이다.
