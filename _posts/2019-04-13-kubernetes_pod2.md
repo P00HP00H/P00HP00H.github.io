@@ -25,7 +25,7 @@ tags: ["kubernetes"]
 
 본 화면은 서버2이다(hpclab2). 여기서 배포된 nginx 컨테이너를 삭제했다.<br><br>
 
-<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/110.JPG?raw=true" width="px">
+<img src="https://github.com/P00HP00H/P00HP00H.github.io/blob/master/img/kubernetes/110.JPG?raw=true" width="750px">
 
 docker ps로 확인해보면,  분명 방금 nginx 컨테이너를 삭제했는데 nginx 컨테이너가 있다. 그렇다. 새 nginx 컨테이너가 생성된 것이다(CONTAINER ID가 바뀌어있음). 또한 마스터 노드로 가서 Pod 상태를 확인해보면<br><br>
 
